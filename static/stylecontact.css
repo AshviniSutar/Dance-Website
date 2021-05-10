@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+input{
+    display: flex;
+    width: 37%;
+    padding: 9px 12px;
+    margin: 18px auto;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+#contact{
+    text-align: center;
+    margin: 17px;
+    height: 79.9vh;
+}
+
+.btn{
+    background: #de5151;
+    width: 6%;
+    font-size: 15px;
+}

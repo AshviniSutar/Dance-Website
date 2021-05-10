@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title Dance website
+        style  
+            include ../static/style.css
+            
+    body
+        navbar
+            div#logo
+                img(src="../static/img/logo.png", alt="", srcset="")
+                | HDA
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+        section#main
+            p.big Welcome to Harry's Dance Academy
+            p.small Eat Sleep Dance Repeat
+            
+        section#about
+            p.small Our Mission
+            div.card1
+                div.cardcontainer
+                    h3 Dance Perfection
+                    div.card
+                        img(src="../static/img/1.png", alt="", srcset="")
+                        h4 This is the best dance academy of the universe
+
+                div.cardcontainer
+                    h3 Dance the way you like
+                    div.card
+                        img(src="../static/img/2.png", alt="", srcset="")
+                        h4 This is the best dance academy of the universe
+
+                div.cardcontainer
+                    h3 Expert Teaching
+                    div.card
+                        img(src="../static/img/3.png", alt="", srcset="")
+                        h4 This is the best dance academy of the universe
+        section#sponsors
+            img(src="../static/img/logo1.png", alt="", srcset="")
+            img(src="../static/img/logo2.png", alt="", srcset="")
+            img(src="../static/img/logo3.png", alt="", srcset="")
+            img(src="../static/img/logo4.png", alt="", srcset="")
+
+        footer
+            | Copywrite
+
+        script
+             include ../static/index.js
+
+            
+                
